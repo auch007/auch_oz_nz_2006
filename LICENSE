@@ -1,21 +1,59 @@
-MIT License
+# License
 
-Copyright (c) 2026 Auch
+## Copyright
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Copyright © 2007-2026 Auch. All rights reserved.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+## Creative Commons License
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).
+
+### You are free to:
+
+- **Share** — copy and redistribute the material in any medium or format
+
+The licensor cannot revoke these freedoms as long as you follow the license terms.
+
+### Under the following terms:
+
+- **Attribution** — You must give appropriate credit to the original author (Auch), provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+
+- **NonCommercial** — You may not use the material for commercial purposes.
+
+- **NoDerivatives** — If you remix, transform, or build upon the material, you may not distribute the modified material.
+
+- **No additional restrictions** — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+
+### Notices:
+
+You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation.
+
+No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.
+
+## Full License Text
+
+For the full legal text of the CC BY-NC-ND 4.0 license, please visit:
+https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+
+## Scope
+
+This license applies to:
+- All written content (travel stories, narratives, descriptions)
+- All photographs and images
+- The overall design and presentation of the website
+- Any original creative content published on this site
+
+## Website Code
+
+The HTML, CSS, and other code used to build this website is provided as-is for personal, non-commercial reference only. You may view the source code, but redistribution or commercial use requires explicit written permission from the copyright holder.
+
+## Contact
+
+For licensing inquiries, permission requests, or other questions, please create an issue in the GitHub repository.
+
+## Attribution Example
+
+When sharing or linking to this work, please use the following attribution:
+
+"Journey to the Down Under" by Auch, licensed under CC BY-NC-ND 4.0
+https://creativecommons.org/licenses/by-nc-nd/4.0/

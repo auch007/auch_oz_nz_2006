@@ -1,53 +1,145 @@
-body {
-  background-color: #000000;
+/* CSS Variables for easier theming */
+:root {
+  --bg-primary: #000000;
+  --bg-secondary: #333333;
+  --text-primary: #fffff0;
+  --text-secondary: #cccccc;
+  --accent-color: #6699ff;
+  --font-family: Verdana, Geneva, sans-serif;
+  --font-size-base: 16px;
+  --font-size-small: 12px;
+  --font-size-title: 23px;
+  --max-width: 1200px;
 }
 
+/* Reset and base styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-primary);
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+  color: var(--text-primary);
+  line-height: 1.6;
+}
+
+/* Typography */
 p {
-  font-family: "Verdana";
-  font-size: 16px;
-  color: #fffff0;
+  margin: 1em 0;
 }
 
 table {
-  font-family: "Verdana";
-  font-size: 16px;
-  color: #fffff0;
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+  color: var(--text-primary);
 }
 
 option {
-  background-color: #333333;
-  font-family: "Verdana";
+  background-color: var(--bg-secondary);
+  font-family: var(--font-family);
   font-size: 8px;
-  color: #fffff0;
+  color: var(--text-primary);
 }
 
+/* Utility classes */
 .grey_small {
-  font-family: "Verdana";
-  font-size: 12px;
-  color: #cccccc;
+  font-size: var(--font-size-small);
+  color: var(--text-secondary);
 }
 
 .title {
-  font-family: "Verdana";
-  font-size: 23px;
-  color: #fffff0;
+  font-size: var(--font-size-title);
   font-weight: bold;
+  color: var(--text-primary);
 }
 
-a:link {
-  font-family: "Verdana";
-  font-size: 16px;
-  color: #fffff0;
+/* Links */
+a {
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+  color: var(--text-primary);
+  text-decoration: underline;
+  transition: color 0.3s ease;
 }
 
 a:hover {
-  font-family: "Verdana";
-  font-size: 16px;
-  color: #6699ff;
+  color: var(--accent-color);
+  text-decoration: underline;
 }
 
 a:visited {
-  font-family: "Verdana";
-  font-size: 16px;
-  color: #CCCCCC;
+  color: var(--text-secondary);
+  text-decoration: underline;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Responsive tables */
+table {
+  max-width: 100%;
+}
+
+table img {
+  width: 100%;
+  height: auto;
+}
+
+/* Center-aligned tables */
+table[align="center"] {
+  margin: 0 auto;
+}
+
+/* Iframe responsive container */
+iframe {
+  max-width: 100%;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  :root {
+    --font-size-base: 14px;
+    --font-size-title: 20px;
+  }
+  
+  body {
+    padding: 10px;
+  }
+  
+  table {
+    width: 100% !important;
+  }
+  
+  td {
+    display: block;
+    width: 100% !important;
+  }
+  
+  td[align="right"] {
+    text-align: center !important;
+  }
+  
+  iframe {
+    width: 100% !important;
+    height: 400px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    --font-size-base: 13px;
+    --font-size-title: 18px;
+  }
+  
+  iframe {
+    height: 300px !important;
+  }
 }
